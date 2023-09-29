@@ -1,3 +1,23 @@
-body{
-    background-color: rebeccapurple;
+:root{
+    --my-bg-header:#000000;
+}
+
+/* general */
+
+img{
+    width: 100%;
+    display: block;
+}
+
+header{
+    height: 70px;
+}
+
+.my-bg-green{
+    background-color: var(--bs-teal);
+}
+.my-img-container{
+    width: 200px;
+    margin: 0 auto;
+
 }
