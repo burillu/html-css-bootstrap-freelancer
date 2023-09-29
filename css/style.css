@@ -3,7 +3,9 @@
 }
 
 /* general */
-
+body{
+    background-color: var(--bs-);
+}
 img{
     width: 100%;
     display: block;
