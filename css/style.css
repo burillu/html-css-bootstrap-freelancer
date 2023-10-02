@@ -62,6 +62,11 @@ img{
 
 
 }
+#contact input, #contact textarea {
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+}
 /* .my-wrapper{
     width: 75%;
     margin: 0 auto;
