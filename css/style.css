@@ -45,7 +45,9 @@ header{
     height: 3px;
     width: 40%;
 } */
-
+.star-container{
+    margin-bottom: 20px;
+}
 .star-container:after, .star-container:before{
     content:'';
     display: block;
