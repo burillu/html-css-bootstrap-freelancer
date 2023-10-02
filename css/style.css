@@ -31,7 +31,9 @@ header{
 }
 
 
-
+.my-text-green{
+    color: var(--bs-teal);
+}
 .my-img-container{
     width: 200px;
     margin: 0 auto;
@@ -61,4 +63,10 @@ header{
     height: 4px;
     width: 20%;
     background-color: var(--bs-white)
+}
+.my-icon-container{
+    width: 35px;
+    height: 35px;
+    border: 1px solid white;
+    padding: 5px;
 }
