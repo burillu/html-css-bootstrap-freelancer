@@ -29,20 +29,34 @@ header{
 .my-bg-green{
     background-color: var(--bs-teal);
 }
+
+
+
 .my-img-container{
     width: 200px;
     margin: 0 auto;
 
 }
-.my-wrapper{
+/* .my-wrapper{
     width: 75%;
     margin: 0 auto;
 }
 .my-line{
     height: 3px;
     width: 40%;
+} */
+
+.star-container:after, .star-container:before{
+    content:'';
+    display: block;
+    height: 4px;
+    width: 20%;
+    background-color: var(--bs-black)
 }
-.star-container{
-    width: 50%;
-    margin: 0 auto;
+.text-white .star-container:after,.text-white .star-container:before{
+    content:'';
+    display: block;
+    height: 4px;
+    width: 20%;
+    background-color: var(--bs-white)
 }
