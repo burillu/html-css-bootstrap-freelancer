@@ -12,7 +12,7 @@ body{
 }
 img{
     width: 100%;
-    display: block;
+    /* display: block; */
 }
 
 /* header{
@@ -37,9 +37,29 @@ img{
 .my-text-green{
     color: var(--bs-teal);
 }
-.my-img-container{
+#hero .my-img-container{
     width: 200px;
     margin: 0 auto;
+
+}
+#portfolio .my-img-container{
+    position: relative;
+    cursor: pointer;
+}
+#portfolio .my-img-container:hover::after{
+    content:'+';
+    background-color: #1abc9c70;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    font-size: 6em;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 
 }
 /* .my-wrapper{
